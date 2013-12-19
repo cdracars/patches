@@ -1,0 +1,13 @@
+diff --git a/tinynav.module b/tinynav.module
+index 9cd7726..e1b569d 100644
+--- a/tinynav.module
++++ b/tinynav.module
+@@ -34,7 +34,7 @@ function tinynav_init() {
+       'tinynav' => array(
+         'selector' => $css_selector,
+         'media_query' => $media_query,
+-        'header' => $header ? TRUE : FALSE,
++        //'header' => $header ? TRUE : FALSE,
+         'active' => $active_class,
+       )),
+       'setting');
